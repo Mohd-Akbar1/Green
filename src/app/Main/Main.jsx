@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Main = () => {
   return (
     <div className='text-white flex flex-col items-start w-[50%] absolute top-30 left-100 '>
-        <p className='text-sm items-start'>Petal Power</p>
+        <p className='text-md items-start'>Petal Power</p>
         <p className='text-[10rem] font-extrabold fonts'>Growth</p>
        
         <p className='text-white/40'>We're your online Houseplant Destination we offer a wide range of houseplants and accessories shipped directly from our green house to yours</p>
