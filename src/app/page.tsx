@@ -2,6 +2,7 @@ import Image from "next/image";
 import Nav from "./nav/Nav"
 import Main from "./Main/Main"
 import Feature from "./feature/Feature"
+import Indoor from "./Indoor"
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       < Nav />
       < Main/>
       <Feature />
+      <Indoor />
     </div>
    
   );

@@ -14,7 +14,7 @@ const newPlants=[
     {
         id:2,
         title:"Fiddle leaf Fig",
-        des:"medium moisture well drained",
+        desc:"medium moisture well drained",
         image:"/image2.png",
         amount:'$67,129'
     },
@@ -30,7 +30,7 @@ const newPlants=[
 
 const Feature = () => {
   return (
-    <div className='w-full  flex flex-col gap-2'>
+    <div className='w-full  flex flex-col gap-2 mb-50'>
         <div className='flex flex-col md:flex-row'>
                         <div className='text-black border-1 border-gray-300 flex-2 p-2 m-2 rounded-md shadow-md'>
                     <p className='text-3xl font-bold'>Plants for the People</p> 
@@ -107,9 +107,9 @@ const Feature = () => {
 
 
     {/* plants cards */}
-       <div className='w-[90vw] mx-auto grid md:grid-cols-3 grid-cols-1 gap-2'>
+       <div className=' w-full lg:w-[80vw] mx-auto grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-2'>
        {newPlants.map((item)=>(
-            <div className='m-2 border-1 border-gray-300 rounded-md p-2 '>
+            <div className='m-2 border-1 border-gray-300 rounded-xl p-2 '>
             <img src="/image2.png" alt="" className='rounded-md h-60 w-[100%] object-fit' />
             <div className='flex items-center justify-between'>
                 <div>
@@ -117,7 +117,7 @@ const Feature = () => {
                     <p className='px-2'>{item.desc}</p>
                     <p className='px-2'>{item.amount}</p>
                 </div>
-                <button className='bg-black text-white border-1 rounded-full p-2'>
+                <button className='bg-black text-white border-1 rounded-full p-2 cursor-pointer hover:scale-110'>
                     <FaArrowRight />
                 </button>
             </div>
