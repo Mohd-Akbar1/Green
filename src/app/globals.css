@@ -1,4 +1,7 @@
  @import "tailwindcss";
+ @plugin "daisyui" {
+  themes: false;
+ }
 
  html,body{
   box-sizing: border-box;

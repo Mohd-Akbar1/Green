@@ -3,6 +3,8 @@ import Nav from "./nav/Nav"
 import Main from "./Main/Main"
 import Feature from "./feature/Feature"
 import Indoor from "./Indoor"
+import Quality from "./Quality"
+import Footer from "./Footer"
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       < Main/>
       <Feature />
       <Indoor />
+      <Quality />
+      <Footer />
     </div>
    
   );
