@@ -130,7 +130,7 @@ const Feature = () => {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col items-center justify-between gap-2 mx-5 my-10">
+      <div className="flex md:flex-row flex-col items-center justify-between gap-2 mx-5 my-10 w-[100%]">
         <p className="text-7xl font-extrabold">New Plants</p>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
